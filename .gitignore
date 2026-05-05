@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.env
+.venv/
+ENV/
+*.egg-info/
+.pytest_cache/
+
+# Node
+node_modules/
+dist/
+.vite/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Project
+backend/uploads/
+backend/.env
+frontend/.env
+frontend/.env.local
+
+# Model artifacts (allow best.pt under backend/models/)
+*.pt
+!backend/models/*.pt
+
+# Build
+build/
+*.tsbuildinfo

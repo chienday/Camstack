@@ -1,0 +1,90 @@
+{
+  "nav": {
+    "dashboard": "Bảng điều khiển",
+    "upload": "Tải lên",
+    "realtime": "Thời gian thực",
+    "students": "Sinh viên",
+    "history": "Lịch sử"
+  },
+  "dashboard": {
+    "title": "Bảng điều khiển",
+    "totalSessions": "Tổng phiên",
+    "totalStudents": "Tổng sinh viên",
+    "averageAttendance": "Tỷ lệ điểm danh trung bình",
+    "recognitionRate": "Tỷ lệ nhận diện",
+    "recentSessions": "Phiên gần đây",
+    "noData": "Không có dữ liệu"
+  },
+  "upload": {
+    "title": "Tải lên",
+    "subtitle": "Tải lên hình ảnh hoặc video để phát hiện điểm danh.",
+    "dragFiles": "Kéo tệp vào đây hoặc nhấp để chọn",
+    "supportedFormats": "Hỗ trợ: JPEG, PNG, MP4, MOV, WebM",
+    "uploading": "Đang tải lên...",
+    "processing": "Đang xử lý...",
+    "uploadSuccess": "Tải lên thành công",
+    "uploadFailed": "Tải lên thất bại"
+  },
+  "realtime": {
+    "title": "Thời gian thực",
+    "subtitle": "Phát hiện khuôn mặt thời gian thực bằng webcam.",
+    "startCamera": "Bắt đầu Camera",
+    "stopCamera": "Dừng Camera",
+    "cameraPermission": "Vui lòng cho phép quyền camera",
+    "noWebcam": "Không tìm thấy webcam"
+  },
+  "students": {
+    "title": "Sinh viên",
+    "subtitle": "Quản lý hồ sơ sinh viên được sử dụng để nhận diện khuôn mặt.",
+    "allStudents": "Tất cả sinh viên",
+    "search": "Tìm kiếm sinh viên...",
+    "addStudent": "Thêm sinh viên",
+    "editStudent": "Sửa sinh viên",
+    "deleteStudent": "Xóa sinh viên",
+    "confirmDelete": "Bạn có chắc chắn muốn xóa sinh viên này?",
+    "studentId": "Mã sinh viên",
+    "fullName": "Họ và tên",
+    "class": "Lớp",
+    "email": "Email",
+    "avatar": "URL Avatar",
+    "created": "Được tạo",
+    "actions": "Thao tác",
+    "save": "Lưu",
+    "cancel": "Hủy",
+    "edit": "Sửa",
+    "delete": "Xóa",
+    "required": "là bắt buộc",
+    "created_success": "Sinh viên được tạo thành công",
+    "updated_success": "Sinh viên được cập nhật thành công",
+    "deleted_success": "Sinh viên được xóa thành công",
+    "error": "Lỗi",
+    "noStudents": "Không tìm thấy sinh viên"
+  },
+  "history": {
+    "title": "Lịch sử",
+    "subtitle": "Xem các bản ghi phát hiện quá khứ.",
+    "sessionId": "ID Phiên",
+    "date": "Ngày",
+    "detections": "Phát hiện",
+    "duration": "Thời lượng",
+    "noHistory": "Không có bản ghi lịch sử"
+  },
+  "common": {
+    "loading": "Đang tải...",
+    "error": "Lỗi",
+    "success": "Thành công",
+    "save": "Lưu",
+    "cancel": "Hủy",
+    "delete": "Xóa",
+    "edit": "Sửa",
+    "close": "Đóng",
+    "search": "Tìm kiếm",
+    "noData": "Không có dữ liệu",
+    "language": "Ngôn ngữ",
+    "english": "English",
+    "vietnamese": "Tiếng Việt",
+    "theme": "Chủ đề",
+    "light": "Sáng",
+    "dark": "Tối"
+  }
+}

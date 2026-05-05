@@ -1,0 +1,90 @@
+{
+  "nav": {
+    "dashboard": "Dashboard",
+    "upload": "Upload",
+    "realtime": "Realtime",
+    "students": "Students",
+    "history": "History"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "totalSessions": "Total Sessions",
+    "totalStudents": "Total Students",
+    "averageAttendance": "Average Attendance",
+    "recognitionRate": "Recognition Rate",
+    "recentSessions": "Recent Sessions",
+    "noData": "No data available"
+  },
+  "upload": {
+    "title": "Upload",
+    "subtitle": "Upload images or videos for attendance detection.",
+    "dragFiles": "Drag files here or click to select",
+    "supportedFormats": "Supported: JPEG, PNG, MP4, MOV, WebM",
+    "uploading": "Uploading...",
+    "processing": "Processing...",
+    "uploadSuccess": "Upload successful",
+    "uploadFailed": "Upload failed"
+  },
+  "realtime": {
+    "title": "Realtime",
+    "subtitle": "Real-time face detection using webcam.",
+    "startCamera": "Start Camera",
+    "stopCamera": "Stop Camera",
+    "cameraPermission": "Please allow camera permission",
+    "noWebcam": "No webcam found"
+  },
+  "students": {
+    "title": "Students",
+    "subtitle": "Manage student records used for face recognition.",
+    "allStudents": "All Students",
+    "search": "Search students...",
+    "addStudent": "Add Student",
+    "editStudent": "Edit Student",
+    "deleteStudent": "Delete Student",
+    "confirmDelete": "Are you sure you want to delete this student?",
+    "studentId": "Student ID",
+    "fullName": "Full Name",
+    "class": "Class",
+    "email": "Email",
+    "avatar": "Avatar URL",
+    "created": "Created",
+    "actions": "Actions",
+    "save": "Save",
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "delete": "Delete",
+    "required": "is required",
+    "created_success": "Student created successfully",
+    "updated_success": "Student updated successfully",
+    "deleted_success": "Student deleted successfully",
+    "error": "Error",
+    "noStudents": "No students found"
+  },
+  "history": {
+    "title": "History",
+    "subtitle": "View past detection records.",
+    "sessionId": "Session ID",
+    "date": "Date",
+    "detections": "Detections",
+    "duration": "Duration",
+    "noHistory": "No history records"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "search": "Search",
+    "noData": "No data",
+    "language": "Language",
+    "english": "English",
+    "vietnamese": "Tiếng Việt",
+    "theme": "Theme",
+    "light": "Light",
+    "dark": "Dark"
+  }
+}

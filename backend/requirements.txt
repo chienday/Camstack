@@ -1,0 +1,25 @@
+fastapi==0.110.0
+uvicorn[standard]==0.29.0
+python-multipart==0.0.9
+python-dotenv==1.0.1
+pydantic==2.6.4
+pydantic-settings==2.2.1
+
+# Database
+motor==3.4.0
+pymongo==4.6.3
+
+# AI / CV
+ultralytics==8.1.34
+torch>=2.1.0
+torchvision>=0.16.0
+opencv-python==4.9.0.80
+dlib==19.24.4
+numpy==1.26.4
+Pillow==10.2.0
+
+# WebSocket
+websockets==12.0
+
+# Export
+openpyxl==3.1.2

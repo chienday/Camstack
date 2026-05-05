@@ -1,0 +1,114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 240 30% 99%;
+    --foreground: 222 47% 11%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+
+    --primary: 244 76% 62%;            /* indigo 500 */
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 250 100% 97%;
+    --secondary-foreground: 244 76% 45%;
+
+    --muted: 220 14% 96%;
+    --muted-foreground: 220 9% 46%;
+
+    --accent: 292 84% 61%;             /* fuchsia */
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 244 76% 62%;
+
+    --radius: 0.75rem;
+  }
+
+  .dark {
+    --background: 230 30% 8%;
+    --foreground: 210 40% 98%;
+
+    --card: 230 25% 12%;
+    --card-foreground: 210 40% 98%;
+
+    --primary: 250 90% 70%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 230 20% 18%;
+    --secondary-foreground: 250 90% 85%;
+
+    --muted: 230 20% 16%;
+    --muted-foreground: 220 10% 70%;
+
+    --accent: 300 85% 65%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 70% 55%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 230 20% 20%;
+    --input: 230 20% 20%;
+    --ring: 250 90% 70%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+/* --- Glassmorphism utility --- */
+@layer components {
+  .glass {
+    @apply bg-white/60 dark:bg-white/5 backdrop-blur-xl border border-white/40 dark:border-white/10 shadow-xl;
+  }
+  .glass-strong {
+    @apply bg-white/80 dark:bg-white/10 backdrop-blur-2xl border border-white/50 dark:border-white/10 shadow-2xl;
+  }
+  .gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 via-fuchsia-500 to-pink-500;
+  }
+  .gradient-bg-app {
+    background:
+      radial-gradient(1200px 600px at 10% 0%, rgba(99, 102, 241, 0.18), transparent 60%),
+      radial-gradient(1000px 500px at 90% 20%, rgba(168, 85, 247, 0.18), transparent 60%),
+      radial-gradient(900px 500px at 50% 100%, rgba(236, 72, 153, 0.15), transparent 60%);
+  }
+  .dark .gradient-bg-app {
+    background:
+      radial-gradient(1200px 600px at 10% 0%, rgba(99, 102, 241, 0.25), transparent 60%),
+      radial-gradient(1000px 500px at 90% 20%, rgba(168, 85, 247, 0.22), transparent 60%),
+      radial-gradient(900px 500px at 50% 100%, rgba(236, 72, 153, 0.18), transparent 60%);
+  }
+}
+
+/* Scrollbar polish */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(120, 120, 160, 0.35);
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(120, 120, 160, 0.6);
+}
